@@ -5,7 +5,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html className="trancy-zh-CN" lang="en">
       <body>{children}</body>
     </html>
   );
