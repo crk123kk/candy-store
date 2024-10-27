@@ -1,5 +1,3 @@
 export default function Page() {
-  return (
-  <div>hello next</div>
-);
+  return <div>hello next</div>;
 }
