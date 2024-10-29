@@ -1,3 +1,5 @@
+import GoodList from "./ui/store/goods-list";
+
 export default function Page() {
   return (
     <div>
@@ -11,11 +13,9 @@ export default function Page() {
       <div>
         <input></input>
       </div>
+      <div>menu</div>
       <div>
-        menu
-      </div>
-      <div>
-        list
+        <GoodList></GoodList>
       </div>
     </div>
   );

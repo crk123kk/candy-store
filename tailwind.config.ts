@@ -12,9 +12,19 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         pink: {
-          bg: '#ef8b99'
-        }
+          bg: "#ef8b99",
+        },
       },
+    },
+    screens: {
+      phone: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      pad: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      pc: "1024px",
+      // => @media (min-width: 1024px) { ... }
     },
   },
   plugins: [],
