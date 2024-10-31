@@ -1,3 +1,4 @@
+import Footer from "./ui/page/footer";
 import Header from "./ui/page/header";
 import GoodList from "./ui/store/goods-list";
 
@@ -14,7 +15,9 @@ export default function Page() {
       <div>
         <GoodList></GoodList>
       </div>
-      <div></div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
