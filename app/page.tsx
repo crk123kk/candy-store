@@ -1,5 +1,6 @@
 import Footer from "./ui/page/footer";
 import Header from "./ui/page/header";
+import MenuList from "./ui/page/menuList";
 import GoodList from "./ui/store/goods-list";
 
 export default function Page() {
@@ -11,7 +12,9 @@ export default function Page() {
       <div>
         <input></input>
       </div>
-      <div>menu</div>
+      <div>
+        <MenuList />
+      </div>
       <div>
         <GoodList></GoodList>
       </div>
