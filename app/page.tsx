@@ -16,7 +16,7 @@ export default function Page() {
         <MenuList />
       </div>
       <div>
-        <GoodList></GoodList>
+        <GoodList />
       </div>
       <div>
         <Footer />
